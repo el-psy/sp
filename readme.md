@@ -18,6 +18,8 @@
 
 十分简单，app.ts + api_router.ts 结束。
 
+可以通过postman import 查看 novel.postman_collection.json
+
 # 前端
 
 vue3 + ts ，已经build完成放在dist文件夹。

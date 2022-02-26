@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "a5cb22fe-daca-4b3e-88b1-e1140fbd63d7",
+		"name": "novel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "search",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"site_name\":\"zhhbqg\",\r\n    \"type\":\"author\",\r\n    \"key\":\"厌笔萧生\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api/search",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"search"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "author",
+							"disabled": true
+						},
+						{
+							"key": "key",
+							"value": "厌笔萧生",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/name",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"name"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "info",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"site_name\":\"zhhbqg\",\r\n    \"param\":\"5545\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api/info",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"info"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "page",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"site_name\":\"zhhbqg\",\r\n    \"param\":\"/5_5545/59052181.html\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api/page",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"page"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
