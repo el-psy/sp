@@ -1,0 +1,103 @@
+{
+	"type": "tag",
+	"attribs": { "id": "info" },
+	"name": "div",
+	"children": [
+		{ "type": "text", "data": "\n\t\t\t\t", "children": [] },
+		{
+			"type": "tag",
+			"attribs": {},
+			"name": "h1",
+			"children": [
+				{ "type": "text", "data": "全属性武道", "children": [] }
+			]
+		},
+		{ "type": "text", "data": "\n\t\t\t\t", "children": [] },
+		{
+			"type": "tag",
+			"attribs": {},
+			"name": "p",
+			"children": [
+				{ "type": "text", "data": "作    者：莫入江湖", "children": [] }
+			]
+		},
+		{ "type": "text", "data": "\n\t\t\t\t", "children": [] },
+		{
+			"type": "tag",
+			"attribs": {},
+			"name": "p",
+			"children": [
+				{ "type": "text", "data": "状    态：连载", "children": [] }
+			]
+		},
+		{
+			"type": "text",
+			"data": "\n                                ",
+			"children": []
+		},
+		{
+			"type": "tag",
+			"attribs": {},
+			"name": "p",
+			"children": [
+				{ "type": "text", "data": "动    作：", "children": [] },
+				{
+					"type": "tag",
+					"attribs": { "href": "#footer", "style": "color:red;" },
+					"name": "a",
+					"children": [
+						{ "type": "text", "data": "直达底部", "children": [] }
+					]
+				},
+				{ "type": "text", "data": "  ", "children": [] },
+				{
+					"type": "tag",
+					"attribs": {
+						"rel": "nofollow",
+						"href": "javascript:addBookCase('25725');",
+						"style": "color:red;"
+					},
+					"name": "a",
+					"children": [
+						{ "type": "text", "data": "加入书架", "children": [] }
+					]
+				},
+				{ "type": "text", "data": "\n\t\t\t\t", "children": [] }
+			]
+		},
+		{
+			"type": "tag",
+			"attribs": {},
+			"name": "p",
+			"children": [
+				{
+					"type": "text",
+					"data": "最后更新：2022-01-22 00:01:00",
+					"children": []
+				}
+			]
+		},
+		{ "type": "text", "data": "\n\t\t\t\t", "children": [] },
+		{
+			"type": "tag",
+			"attribs": {},
+			"name": "p",
+			"children": [
+				{ "type": "text", "data": "最新章节：", "children": [] },
+				{
+					"type": "tag",
+					"attribs": { "href": "/25_25725/674215982.html" },
+					"name": "a",
+					"children": [
+						{
+							"type": "text",
+							"data": "第1621章 再见混沌本源能量！神级阵法虚空芥子大阵！（求订阅求月票！）",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{ "type": "text", "data": "\n\t\t\t", "children": [] }
+	]
+}
