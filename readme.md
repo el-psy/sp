@@ -36,12 +36,12 @@ node --loader ts-node/esm "app.ts"
 
 # 对于编码问题
 
-有一些网站可能有奇怪的编码，比如GBK2312。而node天生不支持这种东西。
-可以通过iconv-lite库。
-但是使用过程为
-请求 =》 获得二进制信息 =》 编码转换。
-在axios中这个细节被隐藏在./node_modules/axios/lib/adapters/http.js中。
-通过ctrl+f responseEncoding ,可以找到。
+有一些网站可能有奇怪的编码，比如GBK2312。而node天生不支持这种东西。 
+可以通过iconv-lite库。 
+但是使用过程为 
+请求 =》 获得二进制信息 =》 编码转换。 
+在axios中这个细节被隐藏在./node_modules/axios/lib/adapters/http.js中。 
+通过ctrl+f responseEncoding ,可以找到。 
 可以将
 ```
 responseData = responseData.toString(config.responseEncoding);
